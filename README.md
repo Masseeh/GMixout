@@ -1,6 +1,11 @@
-# Robust and Efficient Finetuning of Vision Foundation Models via Implicit Ensembling (GMixout)
+# Robust and Efficient Finetuning of Vision Foundation Models via Implicit Ensembling, Neurips 2026
 
-This is the source code for the paper: [Robust and Efficient Finetuning of Vision Foundation Models via Implicit Ensembling](https://arxiv.org/abs/2510.06982) (Neurips 2026).
+Official PyTorch implementation of GMixout | [paper](https://arxiv.org/abs/2510.06982) .
+
+## Abstract
+
+Robust finetuning of foundation models seeks to improve out-of-distribution (OOD) generalization during in-distribution (ID) adaptation. We revisit Mixout, a stochastic regularizer that intermittently replaces finetuned parameters with a reference anchor, and study its effectiveness for robust finetuning of vision foundation models. We reinterpret Mixout as a single-run, weight-sharing implicit ensemble and analyze its expected OOD error through a bias–variance–covariance–locality (BVCL) lens. This perspective reveals three key factors that govern the ID–OOD trade-off: the choice of masking anchor, the mask resampling frequency, and mask sparsity. Guided by this analysis, we propose GMixout, which generalizes Mixout in three ways. First, it explicitly controls the masking period through a resampling-frequency hyperparameter. Second, it replaces the fixed pretrained anchor with an exponential moving average snapshot that adapts throughout training. Third, it uses sparse kernels to update only a small subset of parameters at each iteration, introducing no inference-time overhead and enabling large-model finetuning on consumer-grade GPUs. Experiments across five vision benchmarks show that GMixout consistently outperforms Mixout, Model Soups, and strong parameter-efficient finetuning baselines under both covariate shift and class imbalance.
+
 
 ## Requirements
 
