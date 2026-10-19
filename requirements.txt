@@ -1,0 +1,13 @@
+torch
+torchvision
+triton
+tensorboard
+yacs
+tqdm
+ftfy
+regex
+scipy
+scikit-learn
+pillow
+timm
+pandas

@@ -1,0 +1,6 @@
+dataset: "WILDSiWildCam_OOD"
+root: "WILDS"
+loss_type: "CE"
+prompt: "default"
+model_selection: "macro_f1"
+outdomain_split: "test"

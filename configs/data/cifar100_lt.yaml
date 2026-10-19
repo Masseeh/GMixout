@@ -1,0 +1,5 @@
+dataset: "CIFAR100_LT"
+root: "CIFAR100"
+loss_type: "LA"
+prompt: "default"
+warmup_steps: 0.5

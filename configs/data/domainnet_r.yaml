@@ -1,0 +1,4 @@
+dataset: "DomainNet_Real_Train"
+root: "domain_net"
+loss_type: "CE"
+prompt: "default"

@@ -1,0 +1,4 @@
+dataset: "DomainNet_Clipart_Train"
+root: "domain_net"
+loss_type: "CE"
+prompt: "default"

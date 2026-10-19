@@ -1,0 +1,4 @@
+dataset: "iNaturalist2018"
+root: "inat_2018"
+loss_type: "LA"
+prompt: "default"

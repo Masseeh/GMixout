@@ -1,0 +1,7 @@
+test_only: True
+mask: False
+head_tuning: False
+full_tuning: False
+lora: False
+lora_mlp: False
+dy_mask: False

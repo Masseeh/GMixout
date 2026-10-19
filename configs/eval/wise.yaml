@@ -1,0 +1,3 @@
+wise: True
+wise_alpha: 0.5
+test_only: True

@@ -1,0 +1,5 @@
+dataset: "WILDSiWildCam_Oracle"
+root: "WILDS"
+loss_type: "CE"
+prompt: "default"
+model_selection: "macro_f1"

@@ -1,0 +1,7 @@
+dataset: "DomainNet_Clipart_Train"
+root: "domain_net"
+loss_type: "CE"
+prompt: "default"
+test_only: true
+outdomain_datasets: ['DomainNet_Sketch', 'DomainNet_Painting', 'DomainNet_Real']
+outdomain_split: "all"

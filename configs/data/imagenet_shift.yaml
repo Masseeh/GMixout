@@ -1,0 +1,7 @@
+dataset: "ImageNet"
+root: "ImageNet"
+loss_type: "CE"
+prompt: "ensemble"
+test_only: true
+outdomain_datasets: ['ImageNet_V2', 'ImageNet_R', 'ImageNet_S', 'ImageNet_A']
+outdomain_split: "test"

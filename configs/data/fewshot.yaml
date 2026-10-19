@@ -1,0 +1,5 @@
+dataset: "ImageNet"
+root: "fewshot_datasets"
+fewshot_datasets: ['flower102', 'food101', 'pets', 'dtd', 'caltech101'] 
+test_only: True
+prompt: "default"

@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+*.pth.tar
+
+rebuttal/*
+cache/clip/*
+cache/hub/*
+cache/xet/*
+class_means/*
+output/*
+images/*
+.vscode/*
+slurm.txt
+scripts/batch*.sh

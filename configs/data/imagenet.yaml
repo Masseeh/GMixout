@@ -1,0 +1,4 @@
+dataset: "ImageNet"
+root: "ImageNet"
+loss_type: "CE"
+prompt: "ensemble"
